@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portal de Jogos</title>
+</head>
+
+<body>
+    <script>
+        // Remove o login salvo sempre que a página for fechada ou recarregada
+        window.addEventListener("beforeunload", function () {
+            localStorage.removeItem("usuarioLogado");
+        });
+        // Verifica se o usuário já fez login
+        if (!localStorage.getItem("usuarioLogado")) {
+            window.location.href = "Login/Cadastro&Login.html";
+        }
+    </script>
+    <div class="container">
+        <header>
+            <div class="head-left">
+                <img src="img/logo.png" alt="Logo">
+                <button><a href="https://store.steampowered.com/charts/topselling/BR"
+                        target="_blank">Produtos</a></button>
+            </div>
+            <div class="head-right">
+                <p><a href="#home">Início</a></p>
+                <p><a href="#sobre">Sobre</a></p>
+                <p><a href="#info">Serviços</a></p>
+                <p><a href="#contact">Contato</a></p>
+            </div>
+        </header>
+
+        <section class="hero-section autoBlur" id="home">
+            <div class="hero-vid">
+                <video loop autoplay muted plays-inline class="hero-video">
+                    <source src="videos/hero-1.mp4" type="video/mp4">
+                </video>
+                <div class="hero-info">
+                    <h1>EXPLORE NOVOS MUNDOS</h1>
+                    <p>Entre na nova era dos jogos e descubra experiências imersivas</p>
+                    <a href="https://youtu.be/x1_-btXPWpc?si=xeAVkwrPli2HW8NM" target="_blank">Assistir Trailer</a>
+                </div>
+                <h1 class="gaming-text">GAMING</h1>
+                <div class="next-btn">
+                    PRÓXIMO
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-section">
+            <p>Bem-vindo ao nosso universo</p>
+            <div class="autoBlur">
+                <h1>O MAIOR MUNDO COMPARTILHADO DE AVENTURAS</h1>
+            </div>
+            <img class="stones-img" src="img/stones.png" alt="Imagem decorativa">
+            <div class="image-box autoTakeFull">
+                <img src="img/about.webp" alt="Imagem sobre nós">
+            </div>
+            <h4>O jogo definitivo começa agora!</h4>
+            <h5>Conectamos jogadores do mundo inteiro em uma única plataforma interativa.</h5>
+        </section>
+
+        <section class="info-section" id="info">
+            <h3>Entre no Metaverso</h3>
+            <p>Uma plataforma que une diferentes experiências de jogos em uma única jornada</p>
+            <div class="info-cards">
+                <div class="card autoDisplay">
+                    <h1>RADIANTE</h1>
+                    <p>Uma coleção exclusiva inspirada em animes e games.</p>
+                    <video src="videos/feature-1.mp4" autoplay loop muted plays-inline></video>
+                    <button>EM BREVE</button>
+                </div>
+                <div class="card autoDisplay">
+                    <h1>ZIGMA</h1>
+                    <p>Transforme sua experiência em jogos digitais em uma jornada recompensadora.</p>
+                    <video src="videos/feature-2.mp4" autoplay loop muted plays-inline></video>
+                    <button>EM BREVE</button>
+                </div>
+                <div class="card autoDisplay">
+                    <h1>NEXUS</h1>
+                    <p>Um hub social gamificado que adiciona uma nova dimensão às interações online.</p>
+                    <video src="videos/feature-3.mp4" autoplay loop muted plays-inline></video>
+                    <button>EM BREVE</button>
+                </div>
+                <div class="card autoDisplay">
+                    <h1>AZUL</h1>
+                    <p>Uma IA que aprimora sua jogabilidade e produtividade.</p>
+                    <video src="videos/feature-4.mp4" autoplay loop muted plays-inline></video>
+                    <button>EM BREVE</button>
+                </div>
+                <div class="card autoDisplay">
+                    <video src="videos/feature-5.mp4" autoplay loop muted plays-inline></video>
+                </div>
+                <div class="card autoDisplay">
+                    <h1>MAIS NOVIDADES EM BREVE</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <p>Junte-se a nós</p>
+            <div class="autoBlur">
+                <h1>VAMOS CONSTRUIR O FUTURO DOS JOGOS JUNTOS</h1>
+            </div>
+            <button><a href="https://api.whatsapp.com/send?phone=553164646464" target="_blank">FALE CONOSCO</a></button>
+            <img class="img1" src="img/swordman.webp" alt="Imagem ilustrativa">
+            <img class="img2" src="img/contact-1.webp" alt="Imagem ilustrativa">
+            <img class="img3" src="img/contact-2.webp" alt="Imagem ilustrativa">
+        </section>
+
+        <section class="footer">
+            <p>&copy; 2025 Portal de Jogos. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#"><i class='bx bxl-youtube'></i></a></li>
+                <li><a href="#"><i class='bx bxl-github'></i></a></li>
+                <li><a href="#"><i class='bx bxl-linkedin-square'></i></a></li>
+            </ul>
+            <p>Política de Privacidade</p>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
