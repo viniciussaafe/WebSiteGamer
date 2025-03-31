@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --angle: 45deg; /* Inicializando o ângulo */
+  --opacity: 0.5; /* Opacidade da borda */
+  --border-size: 0.3rem; /* Tamanho da borda */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+
+#div_formulario {
+  position: absolute;
+  width: 400px;
+  padding: 40px;
+  background: #000;
+  border-radius: 20px;
+  text-align: center;
+  animation: colorChange 4s infinite alternate, rotate 4s linear infinite; /* Animação de cor e rotação */
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid rgb(255, 252, 65); 
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#mensagem {
+  margin-top: 10px; /* Distância entre o campo de senha e a mensagem */
+  font-size: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  width: 48%;
+  height: 40px;
+  background:   rgb(255, 252, 65);  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background 0.3s ease, color 0.3s ease, border 0.3s ease;
+  position: relative;
+  animation: buttonBorderChange 4s infinite alternate, animar 4s infinite, rotateBordas 4s linear infinite; 
+}
+
+button:hover {
+  background: #000000;
+  color: #ffeded;
+}
+
+/* Animação para borda de cor dinâmica (rotação e gradiente) */
+@keyframes colorChange {
+  0% {
+    box-shadow: 0 0 50px rgba(255, 255, 27, 0.648); 
+    border: 2px solid rgba(248, 238, 37, 0.737); 
+  }
+  33% {
+    box-shadow: 0 0 50px rgb(248, 248, 28); 
+    border: 2px solid rgb(255, 247, 0);
+  }
+  66% {
+    box-shadow: 0 0 50px #ffbc2a;
+    border: 2px solid #ffc549dd;
+  }
+  100% {
+    box-shadow: 0 0 50px rgb(255, 106, 0); 
+    border: 2px solid rgb(255, 128, 0); 
+  }
+}
+
+/* Animação para rotação da borda */
+@keyframes rotateBordas {
+  0% {
+    --angle: 0deg;
+  }
+  100% {
+    --angle: 360deg;
+  }
+}
+
+@keyframes buttonBorderChange {
+  0% {
+    border: 2px solid rgba(255, 255, 27, 0.648); 
+  }
+  33% {
+    border: 2px solid rgb(248, 248, 28);  
+  }
+  66% {
+    border: 2px solid #ffbc2a;
+  }
+  100% {
+    border: 2px solid rgb(255, 106, 0);
+  }
+}
