@@ -1,4 +1,4 @@
-!(https://github.com/viniciussaafe/WebSiteGamer/blob/main/Captura%20de%20tela%202025-11-01%20134054.png )
+!(Captura de tela 2025-11-01 134054.png )
 💻 Apresentação do Meu Website Gamer
 
 🚀 Desenvolvi um Moderno Website Gamer com HTML, CSS e JS 🌟
