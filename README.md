@@ -1,7 +1,7 @@
 ![Captura de tela](https://github.com/viniciussaafe/WebSiteGamer/blob/main/Captura%20de%20tela%202025-11-01%20134054.png?raw=true)
 <p align="center"><b>
-💻 Apresentação do Meu Website Gamer<br>
-🚀 Desenvolvi um Moderno Website Gamer com HTML, CSS e JS 🌟</b></p><br>
+💻 Apresentação do Meu Website Gamer
+🚀 Desenvolvi um Moderno Website Gamer com HTML, CSS e JS 🌟</b></p>
 Eu transformei minha criatividade em realidade e construí um Website Gamer visualmente impressionante, utilizando o front-end com HTML, CSS e JavaScript, e um sistema de autenticação robusto!
 O grande destaque é o sistema de Login e Cadastro completo que desenvolvi, utilizando o Supabase como plataforma Backend as a Service (BaaS) para gerenciar o banco de dados e a autenticação.
 O fluxo de segurança e acesso é simples e eficiente:
