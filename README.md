@@ -1,4 +1,4 @@
-<img align="center" width="600"> ![Captura de tela](https://github.com/viniciussaafe/WebSiteGamer/blob/main/Captura%20de%20tela%202025-11-01%20134054.png?raw=true)</img>
+<img align="center" width="400"> ![Captura de tela](https://github.com/viniciussaafe/WebSiteGamer/blob/main/Captura%20de%20tela%202025-11-01%20134054.png?raw=true)</img>
 <p align="center"><b>
 💻 Apresentação do Meu Website Gamer <br>
 🚀 Desenvolvi um Moderno Website Gamer com HTML, CSS e JS 🌟</b></p>
