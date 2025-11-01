@@ -3,7 +3,7 @@
 
 🚀 Desenvolvi um Moderno Website Gamer com HTML, CSS e JS 🌟
 
-<p align="center"><b>Eu transformei minha criatividade em realidade e construí um Website Gamer visualmente impressionante, utilizando o front-end com HTML, CSS e JavaScript, e um sistema de autenticação robusto!</b></p>
+<p align="center"><b>Eu transformei minha criatividade em realidade e construí um Website Gamer visualmente impressionante, utilizando o front-end com HTML, CSS e JavaScript, e um sistema de autenticação robusto!
 
 O grande destaque é o sistema de Login e Cadastro completo que desenvolvi, utilizando o Supabase como plataforma Backend as a Service (BaaS) para gerenciar o banco de dados e a autenticação.
 O fluxo de segurança e acesso é simples e eficiente:
@@ -14,4 +14,4 @@ No design, foquei em uma UI minimalista e moderna inspirada nos padrões Awwward
     Estética Neon e Tema Escuro: Para a atmosfera gamer perfeita.
     Animações de Rolagem e Efeitos Parallax: Para uma experiência do usuário (UX) cativante.
     Layout Responsivo: Desenvolvido com CSS Grid e Flexbox, garantindo que o site funcione perfeitamente em qualquer dispositivo.
-Explore a combinação de código criativo e tecnologias modernas que usei para criar esta experiência web.
+Explore a combinação de código criativo e tecnologias modernas que usei para criar esta experiência web.</b></p>
