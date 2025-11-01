@@ -3,9 +3,9 @@
 
 🚀 Desenvolvi um Moderno Website Gamer com HTML, CSS e JS 🌟
 
-<p align="center"><b>Eu transformei minha criatividade em realidade e construí um Website Gamer visualmente impressionante, utilizando o front-end com HTML, CSS e JavaScript, e um sistema de autenticação robusto!
+<p align="center"><b>Eu transformei minha criatividade em realidade e construí um Website Gamer visualmente impressionante, utilizando o front-end com HTML, CSS e JavaScript, e um sistema de autenticação robusto!</b></p>
 
-O grande destaque é o sistema de Login e Cadastro completo que desenvolvi, utilizando o Supabase como plataforma Backend as a Service (BaaS) para gerenciar o banco de dados e a autenticação.
+<p align="center"><b> O grande destaque é o sistema de Login e Cadastro completo que desenvolvi, utilizando o Supabase como plataforma Backend as a Service (BaaS) para gerenciar o banco de dados e a autenticação.
 O fluxo de segurança e acesso é simples e eficiente:
     Tela de Cadastro (Sign-Up): O usuário cria sua conta inserindo um e-mail e uma senha segura (que não deve esquecer).
     Confirmação de E-mail: Para garantir a segurança e a validade do cadastro, o usuário deve confirmar a criação da conta diretamente no seu e-mail.
